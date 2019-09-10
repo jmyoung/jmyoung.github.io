@@ -5,7 +5,7 @@ date: 2017-07-04T17:23:14+09:30
 author: James Young
 layout: post
 guid: https://blog.zencoffee.org/?p=1013
-permalink: /2017/07/1013/
+permalink: /2017/07/threading-a-x-tek-pure-buckle-the-right-way/
 categories:
   - 'Health &amp; Fitness'
 format: aside
