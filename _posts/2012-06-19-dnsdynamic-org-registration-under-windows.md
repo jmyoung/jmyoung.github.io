@@ -1,0 +1,28 @@
+---
+id: 32
+title: DnsDynamic.org Registration under Windows
+date: 2012-06-19T05:23:00+09:30
+author: James Young
+layout: post
+guid: http://wordpress/wordpress/?p=32
+permalink: /2012/06/dnsdynamic-org-registration-under-windows/
+blogger_blog:
+  - coding.zencoffee.org
+blogger_author:
+  - James Young
+blogger_permalink:
+  - /2012/06/dnsdynamicorg-registration-under.html
+categories:
+  - Technical
+---
+Recently I've been swapping over all my dynamic DNS needs across to [DnsDynamic.org](http://dnsdynamic.org/), which is a free and unlimited solution.  It's fairly decent, and packs a DynDNS compatible interface so you can use ddclient under Linux.  However, I frequently want to register Windows machines, and so I wrote a simple Powershell script which can be run on a scheduled basis to register a machine.
+
+> <pre>#<br /># Registers a Windows machine with the DNS Dynamic service<br /># <br /><br />Set-PSDebug -Strict<br /><br />###############################################################################################<br /><br /># To obfuscate (well, machine encrypt) a password, do this:<br /># (Get-Credential).Password | ConvertFrom-SecureString<br /><br />$username = "ENTER USERNAME HERE"<br />$password = "ENTER OBFUSCATED PASSWORD HERE" | ConvertTo-SecureString<br />$hostname = "ENTER HOSTNAME HERE"<br />$ipsource = "iface:INTERFACE SUBSTRING:INTERFACE NUMBER"<br />#$ipsource = "web"<br /><br />###############################################################################################<br /><br /># Assemble the username/password into a credentials object<br />$creds = New-Object System.Net.NetworkCredential -ArgumentList $username, ([Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($password)))<br /><br /># Determine the IP address to register<br />$ip = $null<br />write-host -NoNewLine "Determining IP address on host machine ... "<br />if ($ipsource -eq "web") {<br />    try {<br />        $wc = New-Object Net.WebClient<br />        $ip = $wc.DownloadString("http://myip.dnsdynamic.org/")<br />    } catch {<br />        throw "Unable to fetch IP address from source '$ipsource': $_"<br />    }<br />} elseif ($ipsource -match '^iface:(.+):([0-9]+)$') {<br />    try {<br />        $desc = $matches[1]<br />        $num = $matches[2]<br />        $ifaces = @(Get-WmiObject -Class Win32_NetworkAdapterConfiguration -Filter IPEnabled=TRUE -ComputerName . | Where-Object { $_.Description -like "*$desc*" })<br />        if ($ifaces) {<br />            $ip = $ifaces[0].IPAddress[$num]<br />        }<br />    } catch {<br />        throw "Unable to fetch IP address for source '$ipsource': $_"<br />    }<br />} else {<br />    throw "Unknown IP source!  Use 'web' or 'iface:interface name:number'"<br />}<br /><br />if (! $ip) {<br />    throw "Unable to retrieve IP address for source '$ipsource'!"<br />}<br /><br /># IP has been retrieved.  Now check if we're already registered with that IP, if so then do nothing.<br />write-host $ip<br />write-host -nonewline "Checking whether update required ... "<br />$dns = $null<br />try {<br />    $dns = ([System.Net.Dns]::GetHostAddresses($hostname))[0].IPAddressToString<br />} catch {<br />    throw "Could not complete DNS resolution for '$hostname': $_"<br />}<br /><br />#  Check if update is required, and if so, do it<br />if ($ip -eq $dns) {<br />    write-host "no"<br />    write-host "Update not required.  Exiting ..."<br />} else {<br />    write-host "yes"<br />    write-host -nonewline "Committing update to dnsdynamic.org ... "<br />    try {<br />        # Configure request, using credentials defined above<br />        $req = [System.Net.HttpWebRequest]::Create("https://www.dnsdynamic.org/api/?hostname=" + $hostname + "&myip=" + $ip)<br />        $req.Credentials = $creds<br />        $req.PreAuthenticate = $true<br />        $req.Timeout = 30000<br /><br />        # Deliver the request and get the response<br />        $resp = $req.GetResponse()<br />        $respstream = $resp.GetResponseStream()<br />        $sr = New-Object IO.StreamReader($respstream)<br />        $result = $sr.ReadToEnd()<br />        write-host $result<br />    } catch {<br />        throw "Unable to register: $_"<br />    }<br />}<br /></pre>
+
+Configuration is pretty easy, just set the username field to your DnsDynamic.org username, and then generate the crypted version of your password using <span>(Get-Credential).Password | ConvertFrom-SecureString</span> and put that into the password field.  Hostname goes into the hostname field.
+
+The ipsource field is more interesting.  If it's just set to 'web', it will derive the external-facing IP address of your box.  Note that if you are using a proxy, this will be the address of the proxy!  This is probably the right solution for most users behind broadband routers and such.
+
+If it's set to 'iface', then the next argument is a string which should be inside the name of the network adapter you want to extract the IP address from.  Make sure you select a substring which is long enough that you won't get multiple results (it always takes the first adapter anyway).  The second argument is the IP address index to use.  So if your adapter has more than one IP address, you can specify which IP address to use.  For most people, this index will be 0, indicating the first IP address.
+
+The script verifies that the dynamic entry actually needs updating before trying to do so.  Note that you shouldn't try and update your IP any more than once every 15 minutes, although as long as your IP hasn't actually changed, the script won't hit the DnsDynamic.org API at all if that happens.  Running it once every few hours should be enough for most purposes.
