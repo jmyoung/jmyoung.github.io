@@ -1,6 +1,6 @@
 ---
 title: Migration to Github Pages!
-date: 2019-05-02T13:57:00+09:30
+date: 2019-09-10T13:57:00+09:30
 author: James Young
 layout: post
 categories:
@@ -8,8 +8,6 @@ categories:
 tags:
   - github
 ---
-
-# Migration to Github Pages!
 
 I've had a bee in my bonnet the past few weeks about Markdown vs. Wikitext and HTML.  In short, I hugely prefer [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).  There's a couple of reasons for this;
 
@@ -36,25 +34,19 @@ graph LR;
 
 From a Windows 10 Bash prompt, do the following;
 
-```
-sudo apt-add-repository ppa:brightbox/ruby-ng
-sudo apt-get update
-sudo apt-get install ruby2.5 ruby2.5-dev build-essential dh-autoreconf zlib1g-dev
-```
+    sudo apt-add-repository ppa:brightbox/ruby-ng
+    sudo apt-get update
+    sudo apt-get install ruby2.5 ruby2.5-dev build-essential dh-autoreconf zlib1g-dev
 
 Then, you will need to edit your `.profile` and add the following;
 
-```
-export GEM_HOME=$HOME/.gems
-export PATH=$HOME/.gems/bin:$PATH
-```
+    export GEM_HOME=$HOME/.gems
+    export PATH=$HOME/.gems/bin:$PATH
 
 Restart your bash prompt after this.  This will enable Ruby to install gems locally without you needing to elevate.  You can now install Bundler and the Github Pages gem with;
 
-```
-gem update
-gem install bundler github-pages
-```
+    gem update
+    gem install bundler github-pages
 
 Lastly, run `jekyll -v` to view your Jekyll version.  You can compare the versions of the various plugins that GitHub themselves use [here](https://pages.github.com/versions/).
 
