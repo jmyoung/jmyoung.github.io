@@ -1,6 +1,6 @@
 ---
-title: High Disk I/O Usage by a VM?
-date: 2019-09-18T13:49:00+09:30
+title: High Disk I/O Usage - Part Two
+date: 2019-09-20T16:50:00+09:30
 author: James Young
 layout: post
 categories:
@@ -188,3 +188,14 @@ In the end the following lessons were learned;
 * I/O coalescing results in dramatically reduced I/O impact on the actual hardware compared to what the VM is trying to do.
 * RAID10 results in significantly less write penalties for this workload.
 
+## Postscript bonus!
+
+I figured out this last night, it's horrible and no doubt an offense to the Gods, but it works.  It outputs the `iostat` output, but with the name of the relevant LV alongside it.  It also only outputs LVs that are in the VG named `vghdd`, change to suit.
+
+```
+# Assumes that the VG you want to look at is "vghdd"
+DEV=`dmsetup ls --tree | grep ^vghdd | awk '{ print $2 }' | sed 's/.*://' | sed 's/)//' | sed 's/^/dm-/'`
+FILTER=`mktemp`
+dmsetup ls --tree | grep ^vghdd | sed 's/^vghdd-\(.*\) (\(.*\):\(.*\))/s\/\\\(dm-\3\.*\\\)\/\\1 \1\//' > $FILTER
+iostat -x 5 sd{b,c,d,e} $DEV | sed -f $FILTER
+```
