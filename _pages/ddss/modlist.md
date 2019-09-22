@@ -4,6 +4,23 @@ title: About
 permalink: /docs/ddss/modlist/
 ---
 
+3 alumite = 
+5 aluminum ingot
+2 iron ingot
+1 obsidian block
+
+3 aluminum = 
+2 triberium
+1 shibuichi
+
+4 shibuichi =  
+3 manasteel
+1 silver
+
+1 triberium =
+5 tiberium
+4 basalt
+
 | Mod | Description |
 | --- | --- |
 | Actually Additions | Drills, utility machines etc |
@@ -55,23 +72,23 @@ permalink: /docs/ddss/modlist/
 | CoFH Core | Library mod for CoFH mods |
 | CoFH World | Library mod for CoFH mods |
 | Common Cababilities | Library mod |
-| Compact Drawers | |
-| ContentTweaker | |
-| Controlling | |
-| CookieCore | |
-| Cosmetic Armor Reworked | |
-| Corail Tombstones | |
-| CraftStudio | |
-| CraftTweaker2 | |
-| Connected Textures Mod | |
-| Cucumber | |
-| CustomStartingGear | |
-| Custom Main Menu | |
-| CreativeCore | |
-| Cyclic | |
-| CyclopsCore | |
-| DefaultOptions | |
-| DDSSUtils [special thx to dierke9!] | |
+| Compact Drawers | Adds compacting drawers to StorageDrawers |
+| ContentTweaker | Library mod for tweaking recipes and such |
+| Controlling | Better keybinding management |
+| CookieCore | Library mod for Tinker's Construct |
+| Cosmetic Armor Reworked | Allows cosmetic armour to be worn |
+| Corail Tombstones | Tombstones and graves on death |
+| CraftStudio | Library mod for a 3d modelling API |
+| CraftTweaker2 | Customizes mods with a simple scripting language |
+| Connected Textures Mod | Adds effects to resource packs |
+| Cucumber | Library mod for Mystical Agriculture and others |
+| CustomStartingGear | Customizes gear that players start the game with |
+| Custom Main Menu | Customizes appearance of main menu |
+| CreativeCore | Library mod for LittleTiles and others |
+| Cyclic | Bunches of miscellaneous blocks and machines |
+| CyclopsCore | Customize recipes via XML |
+| DefaultOptions | Delivers default options on updates |
+| DDSSUtils [special thx to dierke9!] | Special utilities for DD&SS |
 | Doomlike Dungeons | |
 | Draconic Evolution | |
 | Dungeon Tactics | |
