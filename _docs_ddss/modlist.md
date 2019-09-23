@@ -1,25 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /docs/ddss/modlist/
+title: DDSS Modlist
 ---
-
-3 alumite = 
-5 aluminum ingot
-2 iron ingot
-1 obsidian block
-
-3 aluminum = 
-2 triberium
-1 shibuichi
-
-4 shibuichi =  
-3 manasteel
-1 silver
-
-1 triberium =
-5 tiberium
-4 basalt
 
 | Mod | Description |
 | --- | --- |
