@@ -71,94 +71,94 @@ title: DDSS Modlist
 | CyclopsCore | Customize recipes via XML |
 | DefaultOptions | Delivers default options on updates |
 | DDSSUtils [special thx to dierke9!] | Special utilities for DD&SS |
-| Doomlike Dungeons | |
-| Draconic Evolution | |
-| Dungeon Tactics | |
-| DiscordCraft | |
-| Dynamic Surroundings (Disabled) | |
-| Elulib | |
-| EnchantingTable | |
-| Ender Storage | |
-| Enviromentaltech | |
-| EvilCraft | |
-| Exchangers | |
-| Extended Crafting | |
-| Extraalechemy | |
-| Extra Cells | |
-| Extra Planets | |
-| Extrautils 2 | |
-| Extreme Reactors | |
-| Farseek | |
-| Fast Workbench | |
-| FastLeafDecay | |
-| Foamfix | |
-| Forestry | |
-| ForgeEndertech | |
-| Forgelin | |
-| ForgeMultipart | |
-| Furniture | |
-| FTB Utils | |
-| FTB Lib | |
-| Galacticraft Core | |
-| Galacticraft Planets | |
-| Galacticraft Tweaker | |
-| Gendustry | |
-| Gendustry JEI Addon | |
-| Giacomos Fishing Net | |
-| Guide-API | |
-| Guidebook | |
-| HammerLibCore | |
-| Hooked | |
-| Hunger Overhaul | |
-| Hunting Dimension | |
-| HelpFixer | |
-| IceandFire | |
-| Immersive Engeneering | |
-| Industrial Foregoing | |
-| Integrated Dynamics | |
-| Integrated Tunnels | |
-| Itegration Foregoing | |
-| Inventory Tweaks | |
-| Infernal Mobs | |
-| Iron Chests | |
-| JEHC | |
-| JEI | |
-| JER | |
-| JEI Bees | |
-| JEE | |
-| Journeymap | |
-| JRFTL | |
-| Large Fluid Tanks | |
-| LibrarianLib | |
-| Llibrary | |
-| Loot tweaker | |
-| Loot Bags | |
-| LittleTiles | |
-| Magic Bees | |
-| Malisis Core | |
-| Malisis Doors | |
-| Mantle | |
-| Mcjtylib | |
-| Mekanism | |
-| Mekanism Generators | |
-| Mekanism Tools | |
-| Mekanism Ores | |
-| MicdoodleCore | |
-| Minerva Library | |
-| MJRLegendsLib | |
-| MobsPropretiesRandomness | |
-| Mod Tweaker | |
-| Mod Name Tooltip | |
-| Moreoverlays | |
-| Moreplates | |
-| Mouse Tweaks | |
-| Mowziesmobs | |
-| Morpheus  | |
-| MrTJPCore | |
-| MTLib | |
-| Multimob | |
-| Mystical Agriculture | |
-| Mystical Aggriditions | |
+| Doomlike Dungeons | Creates detailed dungeons for exploring |
+| Draconic Evolution | Late game powerful items and magic |
+| Dungeon Tactics | Armour, weapons, items, dungeons |
+| DiscordCraft | Feeds rich info to the Discord client |
+| Dynamic Surroundings (Disabled) | Disabled |
+| Elulib | Library Mod |
+| EnchantingTable | ??? |
+| Ender Storage | Remotely linked storage chests |
+| Enviromentaltech | Void Miners and other multiblocks |
+| EvilCraft | Various dark-themed magic and brooms etc |
+| Exchangers | Tools which exchange blocks with your inventory |
+| Extended Crafting | Larger crafting tables (5x5, 7x7 etc)|
+| Extra Alchemy | Extra potions, potion bags, potion rings etc |
+| Extra Cells | Extensions to AE2 for Fluids and other things |
+| Extra Planets | Galacticraft extension for more rockets and planets |
+| Extra Utilities 2 | Miscellaneous extra blocks |
+| Extreme Reactors | Nuclear reactors for power generation |
+| Farseek | Library mod |
+| Fast Workbench | Library mod for optimizing workbenches |
+| FastLeafDecay | Causes leaves on cut trees to decay immediately |
+| Foamfix | Library mod for optimizing Java heap usage |
+| Forestry | Adds tree-keeping, bee-keeping, and lots more |
+| ForgeEndertech | Library mod |
+| Forgelin | Library mod |
+| ForgeMultipart | Library mod |
+| Furniture | Furniture mod for chairs, tables etc |
+| FTB Utils | Utilities for server administration |
+| FTB Lib | Library mod for FTB |
+| Galacticraft Core | Planet exploration mod |
+| Galacticraft Planets | Planet exploration mod |
+| Galacticraft Tweaker | Planet exploration mod |
+| Gendustry | Addon for Forestry for industrializing parts of it |
+| Gendustry JEI Addon | JEI integration for Gendustry |
+| Giacomos Fishing Net | Fishing Nets |
+| Guide-API | Library mod for making guides |
+| Guidebook | Library mod for making guidebooks |
+| HammerLibCore | Library mod for lots of stuff |
+| Hooked | Grappling Hooks! |
+| Hunger Overhaul | Changes hunger mechanics |
+| Hunting Dimension | Dimension and portal for hunting mobs and mob farming |
+| HelpFixer | Fixes the /help command |
+| IceandFire | Dragons, trolls, pixies, hippogryphs and so-on |
+| Immersive Engineering | Multiblock and other machinery |
+| Industrial Foregoing | Many machines and other technology |
+| Integrated Dynamics | Automation of machinery|
+| Integrated Tunnels | Tunnel configuration for Integrated Dynamics |
+| Integration Foregoing | Integrates Industrial Foregoing with other mods |
+| Inventory Tweaks | Inventory management and sorting GUI |
+| Infernal Mobs | Randomized abilities on mobs like in Diablo |
+| Iron Chests | Expansions for vanilla chests |
+| JEHC | JEI Integration for HarvestCraft |
+| JEI | Shows a drillable interface for all possible items and recipes |
+| JER | Shows worldgen stats for items in JEI |
+| JEI Bees | Bee integration into JEI |
+| JEE | JEI Integration for AE2 |
+| Journeymap | Minimap and world mapping |
+| JRFTL | Convert 4 rotten flesh to prepared leather |
+| Large Fluid Tanks | Stackable fluid tanks |
+| LibrarianLib | Library mod |
+| Llibrary | Library mod |
+| Loot tweaker | Addon for CraftTweaker that tweaks loot tables |
+| Loot Bags | Randomized loot bags for rewards |
+| LittleTiles | Create art with sub-block mini blocks |
+| Magic Bees | Magical bee species expansion for Forestry |
+| Malisis Core | Library mod for Malisis Doors |
+| Malisis Doors | Fancy doors, multiblock doors and so-on |
+| Mantle | Library mod |
+| Mcjtylib | Library mod |
+| Mekanism | Machinery, generators, other technology |
+| Mekanism Generators | Power generators for Mekanism |
+| Mekanism Tools | Tools for Mekanism |
+| Mekanism Ores | Mekanism specific ores (Osmium etc) |
+| MicdoodleCore | Library mod |
+| Minerva Library | Library mod |
+| MJRLegendsLib | Library mod for ExtraPlanets |
+| MobsPropertiesRandomness | Randomizes some stats of mobs |
+| Mod Tweaker | Recipe tweaker |
+| Mod Name Tooltip | Shows what mod an item comes from on the tooltip |
+| Moreoverlays | Shows chunk boundaries, light levels etc with F7/F9 |
+| Moreplates | Adds a lot of different metal plates to many mods |
+| Mouse Tweaks | Improvements to mouse clicking behaviour in inventories |
+| Mowziesmobs | Adds a number of hostile mobs |
+| Morpheus  | Sleep coordination for servers |
+| MrTJPCore | Library mod |
+| MTLib | Library mod  |
+| Multimob | Library mod for PrimitiveMobs |
+| Mystical Agriculture | Farm crops for resources! |
+| Mystical Aggriditions | Extensions |
 | Natura | |
 | Nature's Compass | |
 | NetherEx | |

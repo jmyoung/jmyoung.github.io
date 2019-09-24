@@ -38,3 +38,9 @@ Many alloys can be created in DDSS, and recipes vary whether you have Alloy Smel
   Ardite[1 Ardite Ingot] --> Manyullyn;
   Manyullyn[1 Manyullyn Ingot];
 </div>
+
+# Bronze
+
+3 Copper
+1 Tin 
+4 Bronze
