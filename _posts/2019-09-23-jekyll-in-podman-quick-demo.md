@@ -39,6 +39,31 @@ podman run -it --rm --name jekyll \
   jekyll serve --drafts
 ```
 
-Now what's going on here is that Jekyll will run as `apache`, which means it needs to have R/W access to the `Gemfile.lock` file in your build root.  Hence why we touch it and then set it world writeable.  We then just run up Jekyll with the version that Github Pages uses and tell it to serve in Drafts mode.
+Now what's going on here is that Jekyll will run as `apache`, which means it needs to have R/W access to the `Gemfile.lock` file in your build root.  Hence why we touch it and then set it world writeable.  We then just run up Jekyll with the version that Github Pages uses and tell it to serve in Drafts mode.  Really easy.
 
-Really easy.
+## But what about Windows?
+
+It's also really easy to get this running in Windows, so you don't have to go and install Ruby and try and get that going.  Get [Docker Desktop](https://www.docker.com/products/docker-desktop), and once that's going, do this;
+
+```
+# Make sure these folders exist!
+# Assume blog is in c:\stuff\blog
+# Assume bundle tempstore is in c:\stuff\bundle
+
+docker run -it --rm --name jekyll `
+  -v c:\stuff\blog:/srv/jekyll:rw `
+  -v c:\stuff\bundle:/usr/local/bundle:rw `
+  --publish 4000:4000 `
+  -e JEKYLL_UID=48 `
+  -e JEKYLL_GID=48 `
+  docker.io/jekyll/jekyll:3.8.5 `
+  jekyll serve --drafts
+```
+
+It's not mandatory you use the UID/GID feature since Docker Desktop will map them as it likes, so it will just work.
+
+You will have to go into Docker Settings -> Shared Drives, and tick the drive that you want to be able to use in volumes first though.
+
+Once that's all done, you can find your draft site at http://localhost:4000/
+
+Have fun!
