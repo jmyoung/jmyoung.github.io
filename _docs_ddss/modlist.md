@@ -3,6 +3,8 @@ layout: page
 title: DDSS Modlist
 ---
 
+Modlist updated for DDSS Version 6.2
+
 | Mod | Description |
 | --- | --- |
 | Actually Additions | Drills, utility machines etc |
@@ -14,6 +16,7 @@ title: DDSS Modlist
 | AppleCore | Food/Hunger API |
 | AppleSkin | HUD for AppleCore |
 | Applied Energistics 2 | Digital storage / crafting |
+| Artisan Integration | |
 | Artisan Worktables | Workbenches and artisan's tools |
 | ArchitectureCraft | Fancy display blocks and railings etc |
 | Aroma Core | Core library for Aroma's mods |
@@ -21,7 +24,6 @@ title: DDSS Modlist
 | Astral Sorcery | Magic mod based on star power |
 | Akashic Tome | Adds a tome that holds multiple mod manual books |
 | Athenaeum | ??? |
-| Auto Pickup | Automatically pick up items |
 | AutoRegLib | Vazkii's mod library |
 | Avaritia | Very powerful, very late game items |
 | B.A.S.E | Library for other mods |
@@ -30,6 +32,7 @@ title: DDSS Modlist
 | Better Questing | Provides questing API for other mods |
 | Better Questing Questbook | Provides the quest book |
 | Better Questing Standard Expansion | Various features for Better Questing |
+| Better Questing Forestry Expansion | Adds bee quests to the quest book |
 | Bdlib | Library used by several mods |
 | BiblioCraft | Bookshelves, racks/cases, shelves and chest labels |
 | Binni Mods | Extensions to Forestry for more bees/trees etc |
@@ -42,6 +45,7 @@ title: DDSS Modlist
 | Botanic Additions | Extensions to Botania |
 | Brandons Core | Library mod |
 | Career Bees | Forestry addon that extends bee types |
+| Clumps | |
 | Crafting Tweaks | Adds rotation/balancing/clear to crafting tables |
 | Ceramics | Various blocks and items based on clay |
 | Chameleon | Library mod |
@@ -69,6 +73,7 @@ title: DDSS Modlist
 | CreativeCore | Library mod for LittleTiles and others |
 | Cyclic | Bunches of miscellaneous blocks and machines |
 | CyclopsCore | Customize recipes via XML |
+| Dank Null | |
 | DefaultOptions | Delivers default options on updates |
 | DDSSUtils [special thx to dierke9!] | Special utilities for DD&SS |
 | Doomlike Dungeons | Creates detailed dungeons for exploring |
@@ -159,27 +164,27 @@ title: DDSS Modlist
 | Multimob | Library mod for PrimitiveMobs |
 | Mystical Agriculture | Farm crops for resources! |
 | Mystical Aggriditions | Extensions |
-| Natura | |
-| Nature's Compass | |
-| NetherEx | |
-| NotEnoughID's | |
-| Nucelarcraft | |
-| Omlib | |
-| OnlinePictureFrame | |
-| OpenModulaPassiveDefence | |
-| Openblocks | |
-| OpenModsLib | |
-| OpenModularTurrets | |
-| Overloaded | |
-| Pam's Harvestcraft | |
-| Pams' Cookables | |
-| Phosphorus | |
-| Pickle Tweaks | |
-| Placebo | |
-| PlusTiC | |
-| Pneumaticcraft Repressurized | |
-| Primitive Mobs | |
-| Progressive Bosses | |
+| Natura | Adds worldgen additions |
+| Nature's Compass | Biome finder |
+| NetherEx | Adds biomes and many worldgen features to the Nether |
+| NotEnoughID's | Expands available block IDs |
+| Nuclearcraft | Nuclear reactors and other high tech|
+| Omlib | Library Mod |
+| OnlinePictureFrame | Inserts internet images into images |
+| OpenModularPassiveDefence | Walls, spikes and other defenses |
+| Openblocks | Various blocks and such |
+| OpenModsLib | Library Mod |
+| OpenModularTurrets | Defensive turrets for your base |
+| Overloaded | Expensive and powerful end-game items |
+| Pam's Harvestcraft | Seeds, plants, new foods |
+| Pams' Cookables | Lots of cooking items |
+| Phosphorus | Library mod for optimizing lighting |
+| Pickle Tweaks | Tweaks to repairs, water cans etc |
+| Placebo | Remaps shapeless recipes to shaped for performance |
+| PlusTiC | Tinker's Construct expansion and integration |
+| Pneumaticcraft Repressurized | Drones, Lifts, Elevators |
+| Primitive Mobs | Adds many new mobs to the world |
+| Progressive Bosses | Bosses get harder each time they're killed |
 | Project Red Base | |
 | Project Red Compact | |
 | Project Red Fabrication | |
@@ -218,7 +223,6 @@ title: DDSS Modlist
 | Storage Drawers Extras | |
 | StorageTech | |
 | Storage Cabinet | |
-| Streams | |
 | Sound Reloader | |
 | TAIGA (Tinkers Alloy Addon) | |
 | Tinkers Construct | |

@@ -16,6 +16,12 @@ Many alloys can be created in DDSS, and recipes vary whether you have Alloy Smel
 
 <div class="mermaid">
   graph TD;
+  BasaltBlock[6 Basalt Block] --> Basalt;
+  BasaltBlock -->|Extra| BasaltSpare[6 Basalt Ingot]
+  TiberiumOre[30 Tiberium Ore] --> Tiberium;
+  ManasteelBlock[1 Manasteel Block] --> Manasteel;
+  SilverOre[2 Silver Ore] --> Silver;
+  SilverOre -->|Extra| SilverSpare[1 Silver Ingot];
   Basalt[48 Basalt Ingot] --> Triberium;
   Tiberium[60 Tiberium Ingot] --> Triberium;
   Manasteel[9 Manasteel Ingot] --> Shibuichi;
@@ -41,6 +47,25 @@ Many alloys can be created in DDSS, and recipes vary whether you have Alloy Smel
 
 # Bronze
 
-3 Copper
-1 Tin 
-4 Bronze
+<div class="mermaid">
+  graph TD;
+  Copper[3 Copper Ingot] --> Bronze;
+  Tin[1 Tin Ingot] --> Bronze;
+  Bronze[4 Bronze Ingot];
+</div>
+
+# Terrax
+
+<div class="mermaid">
+  graph TD;
+  VanadiumOre[1 Vanadium Ore] --> VanadiumDust;
+  GalenaOre[2 Galena Ore] --> GalenaDust;
+  VanadiumDust[2 Vanadium Dust] --> Ovium;
+  GalenaDust[4 Galena Dust] --> Ovium;
+  Ovium[2 Ovium Ingot] --> Terrax;
+  KarmesineOre[1 Karmesine Ore] --> Karmesine;
+  JauxumOre[1 Jauxum Ore] --> Jauxum;
+  Karmesine[2 Karmesine Ingot] --> Terrax;
+  Jauxum[2 Jauxum Ingot] --> Terrax;
+  Terrax[4 Terrax Ingot]; 
+</div>
