@@ -17,10 +17,11 @@ avatar: /images/coffee_round_256.png
 
 # Collection setup
 collections:
-  # Notes for Minecraft DD&SS Modpack
-  docs_ddss:
+  # Notes for the Minecraft ATM3R Modpack
+  docs_atm3r:
     output: true
-    permalink: /docs/ddss/:path
+    permalink: /docs/atm3r/:path
+  
 
 # Includes an icon in the footer for each username you enter
 footer-links:
