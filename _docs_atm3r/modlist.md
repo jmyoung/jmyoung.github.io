@@ -12,85 +12,159 @@ These are the heavy hitters - mods with complete progression systems, huge numbe
 | Mod Name | Notes |
 | --- | --- |
 | Actually Additions | Drills, utility machines etc |
+| Advanced Generators | Powergen and steam turbines etc |
 | Advanced Rocketry | Rockets, Moon landings, planets |
 | Applied Energistics 2 | Digital Storage / Crafting |
-| Armory Expansion | Adds tool and armor parts for Tinker's Construct |
+| Aroma1997's Dimensional World | Adds the Mining Dimension |
 | Astral Sorcery | Magic mod based on Star Power |
-| Backpack | Craftable, wearable backpacks |
-| Baubley Heart Canisters | Bauble and parts for greatly increasing health |
-| Better Builders Wands | Wands for helping build faster |
 | Blood Magic | Magic system of rituals and alchemy etc |
-| Bonsai Trees | Miniature tree farming blocks |
 | Botania | Magic system based around plants |
-| Building Gadgets | Gadgets for mass block placing/removing |
 | Compact Machines 3 | Put many machines inside a single block |
 | Cyclic | Many various helpful blocks and stuff |
-| DarkUtils | Various utility blocks |
+| Dark Utilities | Various utility blocks |
 | Draconic Evolution | Powerful end-game gear and machines |
 | Electroblob's Wizardry | Spells, wizards and such |
-| Embers Rekindled | Dwarven Magic Mod |
 | Ender IO | Machinery, conduits and other |
-| Ender Storage | Remotely linked storage chests |
 | Environmental Tech | Void miners, solar arrays and other tech |
-| ExtraCells | Extra capabilities for AE2 |
-| extrautils2 | Miscellaneous extra blocks |
-| ExtremeReactors | Nuclear reactors for powergen |
-| forestry | Adds tree-keeping, bee-keeping, and lots more |
-| generators | Advanced Generators - powergen and steam turbines etc |
-| hooked | Grappling hooks! |
-| ImmersiveEngineering | Machinery and engineering using multiblocks
-| industrialcraft | Many electrical machines and stuff |
-| industrialforegoing | Many machines and other technology |
-| malisisdoors | Fancy doors, multiblock doors and so-on |
+| Extra Utils 2 | Miscellaneous extra blocks |
+| Extreme Reactors | Nuclear reactors for powergen |
+| Forestry | Adds tree-keeping, bee-keeping, and lots more |
+| Immersive Engineering | Machinery and engineering using multiblocks
+| IndustrialCraft 2 | Many electrical machines and stuff |
+| Industrial Foregoing | Many machines and other technology |
 | Mekanism | Machinery, ore processing, other technology |
-| MysticalAgriculture | Farm crops for resources |
-| NaturesCompass | Biome Finder |
-| notenoughwands | Adds various utility wands |
+| Mystical Agriculture | Farm crops for resources |
 | NuclearCraft | Nuclear reactors and other high tech stuff |
 | OpenComputers | LUA-coded computers, drones, robots |
-| Overloaded | Expensive and powerful end-game items |
-| ResourceLoader | Library mod for Custom Main Menu |
-| pneumaticcraft-repressurized | Drones, lifts, elevators and such |
-| PortalGun | A portal gun.  Really |
-| portality | Customizable portals |
-| pressure | High throughput pipe system |
-| ProjectRed Base | Redstone controls and logic circuits |
-| Psi-r1.1 | Magic spell system based on maths |
-| RandomThings | Kitchen sink mod with various things |
+| Pressure Pipes | High throughput pipe system |
+| ProjectRed | Redstone controls and logic circuits |
+| Psi | Magic spell system based on maths |
+| Random Things | Kitchen sink mod with various things |
 | Reliquary | Various magical items and equipment |
-| rftools | Many advanced RF machines |
+| RFTools | Many advanced RF machines |
 | Roots | Earth-based magic |
-| SimplyJetpacks2 | Jetpacks! |
-| StevesCarts | Make automated carts for doing things |
-| StorageDrawers | Blocks for holding large amounts of a single item |
-| SuperiorShields | Energy shields |
-| TConstruct | Tinker's Construct customizable weapons |
-| TechReborn | Machinery and tech mod |
-| Thaumcraft | Highly detailed magic mod with golems, spells etc |
-| ThermalExpansion | Machinery and automation |
-| ThermalInnovation | Fluxbores/saws, magnets, potion quivers and such |
-| WirelessCharger | A wireless, upgradable charger for RF items in inventory |
-| wizardry | Magic mod, crafting your own spells etc |
-| woot | Create factories for farming mobs, server friendly |
-| xnet | Item logistics mod with conduits and pipes |
-| RedstoneArsenal | Adds powerful RF powered equipment |
+| Steve's Carts | Make automated carts for doing things |
+| Tinker's Construct | Tinker's Construct customizable weapons |
+| Tech Reborn | Machinery and tech mod |
+| Thaumcraft 6 | Highly detailed magic mod with golems, spells etc |
+| The Betweenlands | Alternate dimension and a new Survival progression experience |
+| Thermal Expansion | Machinery and automation |
+| Twilight Forest | Alternate dimension with its own progression and boss experience |
+| Wizardry | Magic mod, crafting your own spells etc |
+| Woot | Create factories for farming mobs, server friendly |
+| Xnet | Item logistics mod with conduits and pipes |
 
-# Library and Non-Interactive Mods
+## Modules/Expansions for Major Mods
 
-These are mods which you don't actually interact with, but which supply functionality to other mods, fix problems or somesuch.
+Additional modules / expansions for major mods.
+
+| Base Mod | Module | Notes |
+| --- | --- | --- |
+| Applied Energistics 2 | AE2 Stuff | Adds some critical blocks to AE2 |
+| Applied Energistics 2 | Extra Cells 2 | Adds some important blocks to AE2 |
+| Applied Energistics 2 | WirelessCraftingTerminal | Wireless terminals for AE2 and RS |
+| Applied Energistics 2 | WirelessFluidTerminal | Wireless terminals for AE2 and RS |
+| Applied Energistics 2 | WirelessInterfaceTerminal | Wireless terminals for AE2 and RS |
+| Applied Energistics 2 | WirelessPatternTerminal | Wireless terminals for AE2 and RS |
+| Ender IO | EnderIO Endergy | High-end conduits and gear for EnderIO |
+| Environmental Tech | ET Lunar | Adds lunar arrays for night-time powergen to ET |
+| Forestry | Binnie's Mods | Extensions to Forestry for more bees/trees etc |
+| Forestry | Career Bees | Forestry addon that extends bee types |
+| Forestry | Gendustry | Addon for Forestry for industrializing parts of it |
+| Forestry | Magic Bees | Magical bee species expansion for Forestry |
+| Immersive Engineering | Immersive Petroleum | Adds oil wells, pumpjacks and other petroleum things to IE |
+| Immersive Engineering | Immersive Tech | Adds steam turbines, solar towers and such to IE |
+| Mekanism | Generators | Power generators for Mekanism |
+| Mekanism | Tools | Tools for Mekanism |
+| Mystical Agriculture | Mystical Agradditions | Extensions for Mystical Agriculture |
+| OpenComputers | Computronics | Adds peripherals to ComputerCraft and OpenComputers |
+| ProjectRed | Compat | Compatibility for Project Red to other mods |
+| ProjectRed | Fabrication | Construction machines for ProjectRed |
+| ProjectRed | Integration | Shrink down redstone logic to tiles |
+| ProjectRed | Lighting | Lights and such for ProjectRed |
+| ProjectRed | Mechanical | Expansion and transport for ProjectRed |
+| ProjectRed | World | Ores and worldgen for ProjectRed |
+| RFTools | Control | Automation for RFtools |
+| RFTools | Dimensions | Dimension Generators for RFTools |
+| RFTools | Power | Power generators for RFTools |
+| Thermal Expansion | Cultivation | Watering cans |
+| Thermal Expansion | Dynamics | Itemducts, fluiducts, viaducts etc |
+| Thermal Expansion | Foundation | Basic materials and tools for Thermal Expansion
+| Thermal Expansion | Logistics | Logistics pipes, automation for machinery |
+| Tinker's Construct | Armory Expansion | Adds tools and armor parts for other materials |
+| Tinker's Construct | Construct's Armory | Armor pieces for Tinker's Construct |
+
+## Integrations for Major Mods
+
+Mods which provide integration points to get them to interact with other mods.  Integrations that go across huge numbers of things aren't listed here, and are just 'part of the pack' in the Library Mods section.
+
+| Mod 1 | Mod 2 | Integration Name | Notes |
+| --- | --- | --- | --- |
+| Applied Energistics 2 | Compact Machines | Capability Adapter | Allows AE2 cable to pass into Compact Machines |
+| Industrial Foregoing | Various | Integration Foregoing | Integrated Industrial Foregoing with other mods |
+| OpenComputers | Actually Additions | Actually Computers | Integration for ActuallyAdditions and OpenComputers |
+| OpenComputers | RFTools | rftpwr_oc | Integration for OpenComputers and RFTools |
+| OpenComputers | Thaumcraft 6 | ThaumicComputers | Integration for OpenComputers and Thaumcraft 6 |
+| OpenComputers | Tinker's Construct | tinkersoc | OpenComputers integration for Tinker's Construct machines |
+| Thaumcraft 6 | Various | thaumicperiphery | Integrations for Thaumcraft with Botania, and other upgrades |
+| Tinker's Construct | Various | Adds materials from other mods into TiC |
+| Tinker's Construct | OreExcavation | OEIntegration | Integration for OreExcavation into Tinker's Construct
+| XNet | Various | YNot | Adds cross-mod compatibility for XNet |
+
+# Tools and Gear Mods
+
+Mods which are not complete ecosystems in themselves, but provide some kind of critical, important or powerful gear, block or capability.
 
 | Mod Name | Notes |
 | --- | --- |
-| AIImprovements | Improves mob AI |
+| ActuallyBaubles | Magnetizing rings, potion rings, bauble batteries |
+| Backpack | Craftable, wearable backpacks |
+| Baubley Heart Canisters | Bauble and parts for greatly increasing health |
+| Better Builders Wands | Wands for helping build faster |
+| Bonsai Trees | Miniature tree farming blocks |
+| Building Gadgets | Gadgets for mass block placing/removing |
+| Ender Storage | Remotely linked storage chests |
+| hooked | Grappling hooks! |
+| Malisis Doors | Fancy doors, multiblock doors and so-on |
+| Morph-o-Tool | A multi-purpose wrench, hammer etc |
+| Nature's Compass | Biome Finder |
+| Not Enough Wands | Adds various utility wands |
+| Overloaded | Expensive and powerful end-game items |
+| PortalGun | A portal gun.  Really |
+| Portality | Customizable portals |
+| Simply Jetpacks 2 | Jetpacks! |
+| Storage Drawers | Blocks for holding large amounts of a single item |
+| Superior Shields | Energy shields |
+| Thermal Innovation | Fluxbores/saws, magnets, potion quivers and such |
+| Wireless Charger | A wireless, upgradable charger for RF items in inventory |
+| Redstone Arsenal | Adds powerful RF powered equipment |
+
+# Library and Non-Interactive Mods
+
+These are mods which you don't actually interact with, but which supply functionality to other mods, fix problems or somesuch.  A lot have just 'Library mod', because that's what they are.  A library used by one or more mods.
+
+| Mod Name | Notes |
+| --- | --- |
+| AE2WTLib | AE2 Wireless Terminal Library |
+| AIImprovements | Improves mob AI to be kinder to servers |
 | AppleCore | Food/hunger API |
 | AppleSkin | HUD for AppleCore |
 | Aroma1997Core | Core library for Aroma's mods |
 | atmtweaks | Various tweaks for the ATM Modpack |
+| AttributeFix | Adjusts caps for certain attributes such as armor etc |
+| AutoRegLib | Library mod |
+| base | Library mod |
 | Baubles | Adds bauble functionality |
+| bdlib | Library mod |
+| BetterAdvancements | Improves the advancements UI/UX |
+| BetterFps | Has some FPS improvements |
 | BetterThanMending | Improves the Mending enchantment |
+| bloodylib | Library mod | 
 | Bookshelf | Library mod for many other mods |
 | Born In A Barn | Bugfix for villagers and chunkloading |
 | BrandonsCore | Library mod |
+| ClientTweaks | Various quality of life fixes |
+| Clumps | Bundles together many XP orbs to reduce lag |
 | CraftingTweaks | Adds buttons to the crafting tables to make them better |
 | CraftTweaker2 | Customizes mods with a simple scripting language |
 | Chameleon | Library mod |
@@ -99,12 +173,14 @@ These are mods which you don't actually interact with, but which supply function
 | CoFHCore | Library mod |
 | CoFHWorld | Library mod |
 | CommonCapabilities | Library mod |
+| compatlayer | Compatibility layer for old mods |
 | ContentTweaker | Library mod for tweaking recipes
 | Controlling | Better keybinding management |
 | CTM | Allows connected textures |
 | Cucumber | Library mod for Mystical Agriculture and others
 | CustomBackgrounds | Change the background of the MC menu |
 | CustomMainMenu | Customizes appearance of main menu |
+| CyclopsCore | Library mod
 | DefaultOptions | Delivers default options on updates |
 | diethopper | Fixes some collision box issues with hoppers | 
 | DiscordSuite | Feeds rich info to the Discord client
@@ -179,6 +255,8 @@ These are mods which you don't actually interact with, but which supply function
 | randomtweaks | Various misc. tweaks for MC |
 | reauth | Permits logging back in again without exiting MC |
 | RebornCore | Library mod |
+| RedstoneFlux | Library mod |
+| ResourceLoader | Library mod for Custom Main Menu |
 | ShadowMC | Library mod |
 | SplashAnimation | Makes a splash animation on modpack start |
 | stg | Allows attacks to go through grass |
@@ -186,8 +264,10 @@ These are mods which you don't actually interact with, but which supply function
 | tc6aspects4jei | Display Thaumcraft aspect info in JEI |
 | tesla-core-lib | Library mod |
 | ThaumicInventoryScanning | Allows the Thaumometer to scan objects in inventories |
+| ThaumicJEI | Integration for Thaumcraft with JEI |
 | theoneprobe | Advanced tooltip |
 | tinkersjei | Adds Tinker's material info into JEI |
+| TinkerToolLeveling | Allows TC tools to be levelled up, adding modifiers |
 | Toast Control | Control what toasts pop up |
 | topaddons | Added functionality for The One Probe |
 | UniDict | Unifies recipe output between many different mods |
@@ -201,123 +281,64 @@ These are mods which you don't actually interact with, but which supply function
 
 # The Other Guys
 
-Other mods in the pack I haven't categorized any other way.
+Other mods in the pack I haven't categorized any other way.  There's quite a lot of really cool stuff here, I just don't know enough about them to categorize them as critical or otherwise, or there's some other system I know more about that does a similar function.
 
 | Mod Name | Notes |
 | --- | --- |
-| ActuallyBaubles | Baubles for some AA items |
-| actuallycomputers| Integration for ActuallyAdditions and OpenComputers |
-| ae2stuff | Extensions for Applied Energistics |
-| AE2WTLib | AE2 Wireless Terminal Library |
 | AgriCraft | Breedable, mutatable crops |
-| AkashicTome | A book of books, for holding guides etc |
-| Aroma1997s-Dimensional-World | Adds the Mining Dimension |
-| AttributeFix |
-| AutoRegLib |
-| base | 
-| bdlib |
-| BetterAdvancements |
-| BetterFps |
+| Akashic Tome | A book of books, for holding guides etc |
 | BiblioCraft | Bookshelves, racks/cases, shelves and chest labels |
-| binnie-mods | Extensions to Forestry for more bees/trees etc |
-| BiomesOPlenty | Adds many new biomes, trees and such |
-| birdsfoods | Adds many foods and ways of cooking them |
-| blockcraftery | Framed blocks for aesthetic building (inc. slants!) |
-| bloodylib |
-| capabilityadapter | Allows AE2 cable to pass into Compact Machines |
-| careerbees | Forestry addon that extends bee types |
-| cc-tweaked | ComputerCraft - computers, turtles and so-on |
-| ChatFlow |
+| Biomes O' Plenty | Adds many new biomes, trees and such |
+| Bird's Foods | Adds many foods and ways of cooking them |
+| Blockcraftery | Framed blocks for aesthetic building (inc. slants!) |
+| CC Tweaked | ComputerCraft Rewrite - computers, turtles and so-on |
+| ChatFlow | Allows redirecting / capturing chat messages |
 | ChickenChunks | Chunk loading mod |
 | Chisel | Decorative block carving |
-| chiselsandbits | Adds more chisels and bits |
-| ClientTweaks |
-| Clumps |
-| compatlayer |
-| Computronics | Adds peripherals to ComputerCraft and OpenComputers |
-| conarm |
-| CookingForBlockheads | Kitchens, cooking and more |
-| CosmeticArmorReworked | Allows cosmetic armour to be worn |
-| culinaryconstruct | Build up custom sandwiches and tacos from stuff! |
-| Currency | Money and vending machines
-| CyclopsCore |
-| deepresonance | RF Generators using resonating crystals |
-| EnderIO-endergy | Expansion gear etc for EnderIO |
-| etlunar | Adds lunar arrays for night-time powergen to ET |
+| Chisels And Bits | Adds more chisels and bits |
+| Cooking For Blockheads | Kitchens, cooking and more |
+| Cosmetic Armor Reworked | Allows cosmetic armour to be worn |
+| Culinary Construct | Build up custom sandwiches and tacos from stuff! |
+| Currency | Money and vending machines |
+| Deep Resonance | RF Generators using resonating crystals |
+| Embers Rekindled | Dwarven Magic Mod |
 | ExtraRails | Extra types of minecart rails
 | Flamingo | Adds a flamingo.  Really. |
-| flatcoloredblocks-mc1.12 | Adds some flat colored blocks |
+| Flat Colored Blocks | Adds some flat colored blocks |
 | Floralchemy | Adds a flower which turns oil and fuels into mana |
-| funky-locomotion | Advanced pistons and frames that can push more things |
-| gendustry | Addon for Forestry for industrializing parts of it |
-| immersivepetroleum | Adds oil wells, pumpjacks and other petroleum things to IE |
-| immersivetech | Adds steam turbines, solar towers and such to IE |
-| IntegratedCrafting | Craft things with Integrated Dynamics |
-| IntegratedDynamics | Machinery automation |
-| IntegratedTerminals | Monitoring and control for Integrated Dynamics |
-| IntegratedTunnels | Tunnel config for Integrated Dynamics |
-| IntegrationForegoing | Integrated Industrial Foregoing with other mods |
-| inventorygenerators | Inventory-held RF generators |
-| ironchest | Larger chests |
-| journeymap | Minimap and world mapping |
-| LagGoggles-FAT | Lag analyzer mod |
-| lostcities | Worldgen for abandoned cities |
-| MagicBees | Magical bee species expansion for Forestry |
-| MekanismGenerators | Power generators for Mekanism |
-| MekanismTools | Tools for Mekanism |
-| mobtotems | Adds totems for AOE effects on mobs etc |
-| Morph-o-Tool | A multi-purpose wrench, hammer etc |
-| MysticalAgradditions | Extensions for Mystical Agriculture |
+| Funky Locomotion | Advanced pistons and frames that can push more things |
+| Integrated Crafting | Craft things with Integrated Dynamics |
+| Integrated Dynamics | Machinery automation |
+| Integrated Terminals | Monitoring and control for Integrated Dynamics |
+| Integrated Tunnels | Tunnel config for Integrated Dynamics |
+| Inventory Generators | Inventory-held RF generators |
+| Iron Chest | Larger chests |
+| JourneyMap | Minimap and world mapping |
+| LagGoggles | Lag analyzer mod |
+| Lost Cities | Worldgen for abandoned cities |
+| Mob Totems | Adds totems for AOE effects on mobs etc |
 | MysticWorld | Adds a lot of extra animals |
 | NetherEx | Adds biomes and other worldgen features to the Nether |
-| oeintegration | Integration for OreExcavation into Tinker's Construct
 | OpenBlocks | Varions blocks and such
 | OreExcavation | Dig out entire veins with one hit |
 | Plants | Adds lots of different plants to worldgen |
-| plustic | Tinker's Construct expansion and integration |
-| ProjectRed Compact | Compact machines for ProjectRed |
-| ProjectRed Fabrication | Construction machines for ProjectRed |
-| ProjectRed Integration | Shrink down redstone logic to tiles |
-| ProjectRed Lighting | Lights and such for ProjectRed |
-| ProjectRed Mechanical | Expansion and transport for ProjectRed |
-| ProjectRed World | Ores and worldgen for ProjectRed |
-| Quark-r1.6 | Kitchen sink mod with lots of varying blocks |
-| rangedpumps | Fluid pumps |
+| PneumaticCraft Repressurized | Drones, lifts, elevators and such |
+| Quark | Kitchen sink mod with lots of varying blocks |
+| Ranged Pumps | Fluid pumps |
 | RebornStorage | Addon to Refined Storage for multiblock crafters etc |
-| RedstoneFlux | Library mod |
-| refinedstorage | Network-based mass storage like AE2 |
-| refinedstorageaddons | Wireless crafting grid for Refined Storage |
-| rftoolsctrl | Automation for RFtools |
-| rftoolsdim | Dimension Generators for RFTools |
-| rftoolspower | Power generators for RFTools |
-| rftpwr_oc | Integration for OpenComputers and RFTools |
-| RoguelikeDungeons | Adds large multi-level dungeons to worldgen |
-| rustic | Decoration and agriculture
+| Refined Storage | Network-based mass storage like AE2 |
+| Refined Storage Addons | Wireless crafting grid for Refined Storage |
+| Roguelike Dungeons | Adds large multi-level dungeons to worldgen |
+| Rustic | Decoration and agriculture
 | Schematica | Record schematics of structures |
-| SoulShardsRespawn | Create Soul Shards and Cages to make spawners |
-| StorageDrawersExtras | Make storage drawers from other kinds of wood |
-| ThaumicComputers | Integration for OpenComputers and Thaumcraft 6 |
-| ThaumicJEI | Integration for Thaumcraft with JEI |
-| thaumicperiphery | Integrations for Thaumcraft with Botania, and other upgrades |
-| TheBetweenlands | Alternate dimension and a new Survival progression experience |
-| ThermalCultivation | Watering cans |
-| ThermalDynamics | Itemducts, fluiducts, viaducts etc |
-| ThermalFoundation | Basic materials and tools for Thermal Expansion
-| thermallogistics | Logistics pipes, automation for machinery |
-| tinkersoc | OpenComputers integration for Tinker's Construct machines |
-| TinkerToolLeveling | Allows TC tools to be levelled up, adding modifiers |
+| Soul Shards Respawn | Create Soul Shards and Cages to make spawners |
+| Storage Drawers Extras | Make storage drawers from other kinds of wood |
 | Corail Tombstone | Gravestones, and a whole suite of death-related magic |
 | Transport | A couple of extra minecart tracks and loaders
 | Traverse | Adds a bunch of biomes to worldgen
-| twilightforest | Alternate dimension with its own progression and boss experience |
 | WaterStrainer | Strainers to catch common items in water |
 | Waystones | Teleportation via magical waystones built and in villages |
-| wetstone | A stone that behaves like a block of water, hydrating farmland |
-| WirelessCraftingTerminal | Wireless terminals for AE2 and RS |
-| WirelessFluidTerminal | Wireless terminals for AE2 and RS |
-| WirelessInterfaceTerminal | Wireless terminals for AE2 and RS |
-| WirelessPatternTerminal | Wireless terminals for AE2 and RS |
-| worleycaves | Massive, continuous caves in worldgen |
+| Wetstone | A stone that behaves like a block of water, hydrating farmland |
+| Worley Caves | Massive, continuous caves in worldgen |
 | XL-Food-Mod | Adds lots of food sources and cooking |
 | Xtones | Decorative building blocks |
-| YNot | Adds cross-mod compatibility for XNet |
