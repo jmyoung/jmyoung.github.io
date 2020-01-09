@@ -9,50 +9,110 @@ This list was completed for ATM 1.5.2.  I've attempted to categorize mods somewh
 
 These are the heavy hitters - mods with complete progression systems, huge numbers of machines and other integrated stuff.  I haven't included every one (I left out Refined Storage for example), focusing on the set that I think is most relevant to learn about and get a handle on, at least in part.
 
+## Worlds/Dimension Mods
+
+These create entire dimensions with their own gameplay and such.
+
+| Mod Name | Notes |
+| --- | --- |
+| Advanced Rocketry | Rockets, Moon landings, planets |
+| Aroma1997's Dimensional World | Adds the Mining Dimension |
+| The Betweenlands | Alternate dimension and a new Survival progression experience |
+| Twilight Forest | Alternate dimension with its own progression and boss experience |
+
+## Kitchen Sink Mods
+
+These add a wide variety of all sorts of stuff, sometimes with a theme, sometimes not, but are powerful / useful enough to be key.
+
 | Mod Name | Notes |
 | --- | --- |
 | Actually Additions | Drills, utility machines etc |
-| Advanced Generators | Powergen and steam turbines etc |
-| Advanced Rocketry | Rockets, Moon landings, planets |
-| Applied Energistics 2 | Digital Storage / Crafting |
-| Aroma1997's Dimensional World | Adds the Mining Dimension |
-| Astral Sorcery | Magic mod based on Star Power |
-| Blood Magic | Magic system of rituals and alchemy etc |
-| Botania | Magic system based around plants |
-| Compact Machines 3 | Put many machines inside a single block |
 | Cyclic | Many various helpful blocks and stuff |
 | Dark Utilities | Various utility blocks |
 | Draconic Evolution | Powerful end-game gear and machines |
-| Electroblob's Wizardry | Spells, wizards and such |
-| Ender IO | Machinery, conduits and other |
-| Environmental Tech | Void miners, solar arrays and other tech |
 | Extra Utils 2 | Miscellaneous extra blocks |
-| Extreme Reactors | Nuclear reactors for powergen |
-| Forestry | Adds tree-keeping, bee-keeping, and lots more |
-| Immersive Engineering | Machinery and engineering using multiblocks
-| IndustrialCraft 2 | Many electrical machines and stuff |
-| Industrial Foregoing | Many machines and other technology |
-| Mekanism | Machinery, ore processing, other technology |
-| Mystical Agriculture | Farm crops for resources |
-| NuclearCraft | Nuclear reactors and other high tech stuff |
-| OpenComputers | LUA-coded computers, drones, robots |
-| Pressure Pipes | High throughput pipe system |
-| ProjectRed | Redstone controls and logic circuits |
-| Psi | Magic spell system based on maths |
 | Random Things | Kitchen sink mod with various things |
 | Reliquary | Various magical items and equipment |
-| RFTools | Many advanced RF machines |
-| Roots | Earth-based magic |
-| Steve's Carts | Make automated carts for doing things |
-| Tinker's Construct | Tinker's Construct customizable weapons |
-| Tech Reborn | Machinery and tech mod |
-| Thaumcraft 6 | Highly detailed magic mod with golems, spells etc |
-| The Betweenlands | Alternate dimension and a new Survival progression experience |
+
+## Magic System Mods
+
+Mods which are fairly complete ecosystems with a magical bent.  These will usually have their own progression, and they are often much more self-contained than the Tech Systems mods below.
+
+| Mod Name | Notes |
+| --- | --- |
+| Astral Sorcery | The magic of the stars.  Has rituals, telescopes and such |
+| Blood Magic | Magic system using rituals, blood rites and alchemy |
+| Botania | Nature Magic.  Has a lot of features revolving around flowers working magical effects |
+| Electroblob's Wizardry | Wizard towers, spellbooks, wands and such |
+| Psi | Has a magic spell system based on programming and logic |
+| Roots | Magic of the Earth, has rituals and spells for growth and farming |
+| Thaumcraft 6 | Highly detailed magic mod with golems, crafted spells, backfires etc |
+| Wizardry | Magic mod with crafted spells |
+
+## Tech System Mods
+
+Mods which are fairly complete ecosystems with a technology bent.  These usually integrate with other mods, and often lean towards ore processing, power generation and automation systems.
+
+| Mod Name | Notes |
+| --- | --- |
+| Applied Energistics 2 | Digital Storage, item/fluid transport and autocrafting |
+| Ender IO | Machinery, resource conduits and redstone logic |
+| Immersive Engineering | Detailed tech mod with progression system |
+| IndustrialCraft 2 | Many electrical machines for various purposes |
+| Industrial Foregoing | Tech focused on ore processing and the Laser Drill |
+| Mekanism | Tech focused on factories, ore processing and the Fusion Reactor |
+| OpenComputers | LUA-coded computers, drones, robots |
+| Pressure Pipes | Extremely high throughput pipe system for fluids |
+| ProjectRed | Redstone controls and logic circuits |
+| RFTools | Machines for many purposes.  Shield generators, quarries, dimension builders etc |
+| Steve's Carts | Make specialized carts for automating activities |
 | Thermal Expansion | Machinery and automation |
-| Twilight Forest | Alternate dimension with its own progression and boss experience |
-| Wizardry | Magic mod, crafting your own spells etc |
-| Woot | Create factories for farming mobs, server friendly |
 | Xnet | Item logistics mod with conduits and pipes |
+
+## Resource Production Mods
+
+Mods which provide much functionality around resource production / collection, power generation and so-on.  Other mods will also have this kind of functionality, but these mods specialize in it.
+
+| Mod Name | Notes |
+| --- | --- |
+| Advanced Generators | Powergen and steam turbines etc |
+| Bonsai Trees | Miniature tree farming blocks |
+| Environmental Tech | Void miners, solar arrays and other tech |
+| Extreme Reactors | Nuclear reactors for powergen |
+| Forestry | Adds tree-keeping, bee-keeping, and lots more |
+| Mystical Agriculture | Farm crops for resources |
+| NuclearCraft | Nuclear reactors and other high tech stuff |
+| Woot | Create factories for farming mobs, server friendly |
+
+## Tools and Gear Mods
+
+Mods which provide some kind of critical, important or powerful gear, block or capability - but are more focused in purpose than a kitchen sink mod.
+
+| Mod Name | Notes |
+| --- | --- |
+| ActuallyBaubles | Magnetizing rings, potion rings, bauble batteries |
+| Backpack | Craftable, wearable backpacks |
+| Baubley Heart Canisters | Bauble and parts for greatly increasing health |
+| Better Builders Wands | Wands for helping build faster |
+| Building Gadgets | Gadgets for mass block placing/removing |
+| Compact Machines 3 | Put many machines inside a single block |
+| Ender Storage | Remotely linked storage chests |
+| Hooked | Grappling hooks! |
+| Morph-o-Tool | A multi-purpose wrench, hammer etc |
+| Nature's Compass | Biome Finder |
+| Not Enough Wands | Adds various utility wands |
+| Overloaded | Expensive and powerful end-game items |
+| Simply Jetpacks 2 | Jetpacks! |
+| Storage Drawers | Blocks for holding large amounts of a single item |
+| Superior Shields | Energy shields |
+| Thermal Innovation | Fluxbores/saws, magnets, potion quivers and such |
+| Tinker's Construct | Tinker's Construct customizable weapons |
+| Wireless Charger | A wireless, upgradable charger for RF items in inventory |
+| Redstone Arsenal | Adds powerful RF powered equipment |
+
+# Modules and Integrations for Major Mods
+
+These are subcomponents for Major Mods above, which integrate them with other mods or provide expansions and so-on.
 
 ## Modules/Expansions for Major Mods
 
@@ -111,33 +171,6 @@ Mods which provide integration points to get them to interact with other mods.  
 | Tinker's Construct | OreExcavation | OEIntegration | Integration for OreExcavation into Tinker's Construct
 | XNet | Various | YNot | Adds cross-mod compatibility for XNet |
 
-# Tools and Gear Mods
-
-Mods which are not complete ecosystems in themselves, but provide some kind of critical, important or powerful gear, block or capability.
-
-| Mod Name | Notes |
-| --- | --- |
-| ActuallyBaubles | Magnetizing rings, potion rings, bauble batteries |
-| Backpack | Craftable, wearable backpacks |
-| Baubley Heart Canisters | Bauble and parts for greatly increasing health |
-| Better Builders Wands | Wands for helping build faster |
-| Bonsai Trees | Miniature tree farming blocks |
-| Building Gadgets | Gadgets for mass block placing/removing |
-| Ender Storage | Remotely linked storage chests |
-| hooked | Grappling hooks! |
-| Malisis Doors | Fancy doors, multiblock doors and so-on |
-| Morph-o-Tool | A multi-purpose wrench, hammer etc |
-| Nature's Compass | Biome Finder |
-| Not Enough Wands | Adds various utility wands |
-| Overloaded | Expensive and powerful end-game items |
-| PortalGun | A portal gun.  Really |
-| Portality | Customizable portals |
-| Simply Jetpacks 2 | Jetpacks! |
-| Storage Drawers | Blocks for holding large amounts of a single item |
-| Superior Shields | Energy shields |
-| Thermal Innovation | Fluxbores/saws, magnets, potion quivers and such |
-| Wireless Charger | A wireless, upgradable charger for RF items in inventory |
-| Redstone Arsenal | Adds powerful RF powered equipment |
 
 # Library and Non-Interactive Mods
 
@@ -260,6 +293,7 @@ These are mods which you don't actually interact with, but which supply function
 | ShadowMC | Library mod |
 | SplashAnimation | Makes a splash animation on modpack start |
 | stg | Allows attacks to go through grass |
+| Storage Drawers Extras | Make storage drawers from other kinds of wood |
 | Tatw | Energy conversion library |
 | tc6aspects4jei | Display Thaumcraft aspect info in JEI |
 | tesla-core-lib | Library mod |
@@ -316,6 +350,7 @@ Other mods in the pack I haven't categorized any other way.  There's quite a lot
 | JourneyMap | Minimap and world mapping |
 | LagGoggles | Lag analyzer mod |
 | Lost Cities | Worldgen for abandoned cities |
+| Malisis Doors | Fancy doors, multiblock doors and so-on |
 | Mob Totems | Adds totems for AOE effects on mobs etc |
 | MysticWorld | Adds a lot of extra animals |
 | NetherEx | Adds biomes and other worldgen features to the Nether |
@@ -323,6 +358,8 @@ Other mods in the pack I haven't categorized any other way.  There's quite a lot
 | OreExcavation | Dig out entire veins with one hit |
 | Plants | Adds lots of different plants to worldgen |
 | PneumaticCraft Repressurized | Drones, lifts, elevators and such |
+| PortalGun | A portal gun.  Really |
+| Portality | Customizable portals |
 | Quark | Kitchen sink mod with lots of varying blocks |
 | Ranged Pumps | Fluid pumps |
 | RebornStorage | Addon to Refined Storage for multiblock crafters etc |
@@ -332,8 +369,8 @@ Other mods in the pack I haven't categorized any other way.  There's quite a lot
 | Rustic | Decoration and agriculture
 | Schematica | Record schematics of structures |
 | Soul Shards Respawn | Create Soul Shards and Cages to make spawners |
-| Storage Drawers Extras | Make storage drawers from other kinds of wood |
 | Corail Tombstone | Gravestones, and a whole suite of death-related magic |
+| Tech Reborn | Machinery and tech mod, usually overshadowed by TE and Mekanism |
 | Transport | A couple of extra minecart tracks and loaders
 | Traverse | Adds a bunch of biomes to worldgen
 | WaterStrainer | Strainers to catch common items in water |
