@@ -12,7 +12,7 @@ tags:
 
 I'm doing a fair bit of mucking about in Minecraft lately, specifically with [All The Mods 3 Remix](https://www.curseforge.com/minecraft/modpacks/all-the-mods-3-remix).  One thing that's a common problem in modded minecraft is maintaining stock of materials.
 
-A common solution when using [Applied Energistics 2](https://ae-mod.info/) is to leverage ME Level Emitters to shut off autocrafters when you reach a specified stock level.  Another solution is to simply ram all your autocrafted products into limited storage units (like [Storage Drawers](https://www.curseforge.com/minecraft/mc-mods/storage-drawers)) so that they back up and can't product any more.  
+A common solution when using [Applied Energistics 2](https://ae-mod.info/) is to leverage ME Level Emitters to shut off autocrafters when you reach a specified stock level.  Another solution is to simply ram all your autocrafted products into limited storage units (like [Storage Drawers](https://www.curseforge.com/minecraft/mc-mods/storage-drawers)) so that they back up and can't produce any more.  
 
 Both of these have some problems.  Level Emitters burn AE2 channels, are complex, and take up significant space.  Storage Drawers can lead to tick lag when machines are backed up trying to unload contents, and is not suitable for all cases.
 
