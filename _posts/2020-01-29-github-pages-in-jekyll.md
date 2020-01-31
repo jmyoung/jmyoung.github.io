@@ -72,7 +72,8 @@ This will drop you into a Bash prompt in a transient container which will be rem
 
 ```bash
 cd /srv/jekyll
-apk --no-cache add --virtual build_deps build-base ruby-dev libc-dev linux-headers pkg-config libxml2-dev libxslt-dev
+apk --no-cache add --virtual build_deps make gcc build-base ruby-dev libc-dev linux-headers libxml2-dev libxslt-dev
+bundle install
 bundle exec jekyll build --drafts
 ```
 
@@ -102,7 +103,7 @@ In order to update your gems, repeat the command above that got you into a Bash 
 ```
 cd /srv/jekyll
 rm Gemfile.lock
-apk --no-cache add --virtual build_deps build-base ruby-dev libc-dev linux-headers pkg-config libxml2-dev libxslt-dev
+apk --no-cache add --virtual build_deps make gcc build-base ruby-dev libc-dev linux-headers libxml2-dev libxslt-dev
 bundle update
 ```
 
