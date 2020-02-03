@@ -18,7 +18,7 @@ You add users to the subuid/subgid mapping with the `usermod` and `groupmod` com
 
 Do the following in CentOS7 as root;
 
-```
+```bash
 echo 'user.max_user_namespaces=127357' > /etc/sysctl.d/01-maxusernamespaces.conf
 sysctl --system
 echo "username:100000:65536" >> /etc/subuid
