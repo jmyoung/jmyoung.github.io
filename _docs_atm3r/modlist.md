@@ -5,6 +5,8 @@ title: ATM3R Modlist
 
 This list was completed for ATM 1.5.2.  I've attempted to categorize mods somewhat to narrow down some interesting choices to look at.
 
+Mods with links are mods where I either have or intend to record some notes about them.  Mods in bold are mods that I thought were particularly noteworthy for my playthrough.
+
 # Major Pack Mods
 
 These are the heavy hitters - mods with complete progression systems, huge numbers of machines and other integrated stuff.  I haven't included every one (I left out Refined Storage for example), focusing on the set that I think is most relevant to learn about and get a handle on, at least in part.
@@ -15,8 +17,8 @@ These create entire dimensions with their own gameplay and such.
 
 | Mod Name | Notes |
 | --- | --- |
-| Advanced Rocketry | Rockets, Moon landings, planets |
-| Aroma1997's Dimensional World | Adds the Mining Dimension |
+| **[Advanced Rocketry](mods/advanced_rocketry)** | Rockets, Moon landings, planets |
+| **Aroma1997's Dimensional World** | Adds the Mining Dimension |
 | The Betweenlands | Alternate dimension and a new Survival progression experience |
 | Twilight Forest | Alternate dimension with its own progression and boss experience |
 
@@ -26,11 +28,11 @@ These add a wide variety of all sorts of stuff, sometimes with a theme, sometime
 
 | Mod Name | Notes |
 | --- | --- |
-| Actually Additions | Drills, utility machines etc |
-| Cyclic | Many various helpful blocks and stuff |
+| **Actually Additions** | Drills, utility machines etc |
+| **Cyclic** | Many various helpful blocks and stuff |
 | Dark Utilities | Various utility blocks |
-| Draconic Evolution | Powerful end-game gear and machines |
-| Extra Utils 2 | Miscellaneous extra blocks |
+| **[Draconic Evolution](mods/draconic_evolution)** | Powerful end-game gear and machines |
+| **Extra Utils 2** | Miscellaneous extra blocks |
 | Random Things | Kitchen sink mod with various things |
 | Reliquary | Various magical items and equipment |
 
@@ -40,13 +42,13 @@ Mods which are fairly complete ecosystems with a magical bent.  These will usual
 
 | Mod Name | Notes |
 | --- | --- |
-| Astral Sorcery | The magic of the stars.  Has rituals, telescopes and such |
+| **[Astral Sorcery](mods/astral_sorcery)** | The magic of the stars.  Has rituals, telescopes and such |
 | Blood Magic | Magic system using rituals, blood rites and alchemy |
-| Botania | Nature Magic.  Has a lot of features revolving around flowers working magical effects |
+| **[Botania](mods/astral_sorcery)** | Nature Magic.  Has a lot of features revolving around flowers working magical effects |
 | Electroblob's Wizardry | Wizard towers, spellbooks, wands and such |
 | Psi | Has a magic spell system based on programming and logic |
 | Roots | Magic of the Earth, has rituals and spells for growth and farming |
-| Thaumcraft 6 | Highly detailed magic mod with golems, crafted spells, backfires etc |
+| **[Thaumcraft 6](mods/thaumcraft_6)** | Highly detailed magic mod with golems, crafted spells, backfires etc |
 | Wizardry | Magic mod with crafted spells |
 
 ## Tech System Mods
@@ -55,19 +57,19 @@ Mods which are fairly complete ecosystems with a technology bent.  These usually
 
 | Mod Name | Notes |
 | --- | --- |
-| Applied Energistics 2 | Digital Storage, item/fluid transport and autocrafting |
-| Ender IO | Machinery, resource conduits and redstone logic |
-| Immersive Engineering | Detailed tech mod with progression system |
+| **[Applied Energistics 2](mods/applied_energistics_2)** | Digital Storage, item/fluid transport and autocrafting |
+| **[Ender IO](mods/enderio)** | Machinery, resource conduits and redstone logic |
+| **[Immersive Engineering](mods/immersive_engineering)** | Detailed tech mod with progression system |
 | IndustrialCraft 2 | Many electrical machines for various purposes |
-| Industrial Foregoing | Tech focused on ore processing and the Laser Drill |
-| Mekanism | Tech focused on factories, ore processing and the Fusion Reactor |
-| OpenComputers | LUA-coded computers, drones, robots |
+| **Industrial Foregoing** | Tech focused on ore processing and the Laser Drill |
+| **[Mekanism](mods/mekanism)** | Tech focused on factories, ore processing and the Fusion Reactor |
+| **[OpenComputers](mods/opencomputers)** | LUA-coded computers, drones, robots |
 | Pressure Pipes | Extremely high throughput pipe system for fluids |
 | ProjectRed | Redstone controls and logic circuits |
-| RFTools | Machines for many purposes.  Shield generators, quarries, dimension builders etc |
+| **[RFTools](mods/rftools)** | Machines for many purposes.  Shield generators, quarries, dimension builders etc |
 | Steve's Carts | Make specialized carts for automating activities |
-| Thermal Expansion | Machinery and automation |
-| Xnet | Item logistics mod with conduits and pipes |
+| **[Thermal Expansion](mods/thermal_expansion)** | Machinery and automation |
+| **[Xnet](mods/xnet)** | Item logistics mod with conduits and pipes |
 
 ## Resource Production Mods
 
@@ -76,13 +78,13 @@ Mods which provide much functionality around resource production / collection, p
 | Mod Name | Notes |
 | --- | --- |
 | Advanced Generators | Powergen and steam turbines etc |
-| Bonsai Trees | Miniature tree farming blocks |
-| Environmental Tech | Void miners, solar arrays and other tech |
-| Extreme Reactors | Nuclear reactors for powergen |
+| **Bonsai Trees** | Miniature tree farming blocks |
+| **[Environmental Tech](mods/environmental_tech)** | Void miners, solar arrays and other tech |
+| **[Extreme Reactors](mods/extreme_reactors)** | Nuclear reactors for powergen |
 | Forestry | Adds tree-keeping, bee-keeping, and lots more |
-| Mystical Agriculture | Farm crops for resources |
-| NuclearCraft | Nuclear reactors and other high tech stuff |
-| Woot | Create factories for farming mobs, server friendly |
+| **[Mystical Agriculture](mods/mystical_agriculture)** | Farm crops for resources |
+| [NuclearCraft](mods/nuclearcraft) | Nuclear reactors and other high tech stuff |
+| **[Woot](mods/woot)** | Create factories for farming mobs, server friendly |
 
 ## Tools and Gear Mods
 
@@ -90,24 +92,24 @@ Mods which provide some kind of critical, important or powerful gear, block or c
 
 | Mod Name | Notes |
 | --- | --- |
-| ActuallyBaubles | Magnetizing rings, potion rings, bauble batteries |
-| Backpack | Craftable, wearable backpacks |
-| Baubley Heart Canisters | Bauble and parts for greatly increasing health |
-| Better Builders Wands | Wands for helping build faster |
-| Building Gadgets | Gadgets for mass block placing/removing |
-| Compact Machines 3 | Put many machines inside a single block |
+| **ActuallyBaubles** | Magnetizing rings, potion rings, bauble batteries |
+| **Backpack** | Craftable, wearable backpacks |
+| **Baubley Heart Canisters** | Bauble and parts for greatly increasing health |
+| **Better Builders Wands** | Wands for helping build faster |
+| **Building Gadgets** | Gadgets for mass block placing/removing |
+| **[Compact Machines 3](mods/compact_machines_3)** | Put many machines inside a single block |
 | Ender Storage | Remotely linked storage chests |
-| Hooked | Grappling hooks! |
-| Morph-o-Tool | A multi-purpose wrench, hammer etc |
+| **Hooked** | Grappling hooks! |
+| **Morph-o-Tool** | A multi-purpose wrench, hammer etc |
 | Nature's Compass | Biome Finder |
 | Not Enough Wands | Adds various utility wands |
 | Overloaded | Expensive and powerful end-game items |
-| Simply Jetpacks 2 | Jetpacks! |
-| Storage Drawers | Blocks for holding large amounts of a single item |
-| Superior Shields | Energy shields |
-| Thermal Innovation | Fluxbores/saws, magnets, potion quivers and such |
-| Tinker's Construct | Tinker's Construct customizable weapons |
-| Wireless Charger | A wireless, upgradable charger for RF items in inventory |
+| **Simply Jetpacks 2** | Jetpacks! |
+| **Storage Drawers** | Blocks for holding large amounts of a single item |
+| **Superior Shields** | Energy shields |
+| **Thermal Innovation** | Fluxbores/saws, magnets, potion quivers and such |
+| **Tinker's Construct** | Tinker's Construct customizable weapons |
+| **Wireless Charger** | A wireless, upgradable charger for RF items in inventory |
 | Redstone Arsenal | Adds powerful RF powered equipment |
 
 # Modules and Integrations for Major Mods
@@ -120,39 +122,39 @@ Additional modules / expansions for major mods.
 
 | Base Mod | Module | Notes |
 | --- | --- | --- |
-| Applied Energistics 2 | AE2 Stuff | Adds some critical blocks to AE2 |
-| Applied Energistics 2 | Extra Cells 2 | Adds some important blocks to AE2 |
-| Applied Energistics 2 | WirelessCraftingTerminal | Wireless terminals for AE2 and RS |
-| Applied Energistics 2 | WirelessFluidTerminal | Wireless terminals for AE2 and RS |
-| Applied Energistics 2 | WirelessInterfaceTerminal | Wireless terminals for AE2 and RS |
-| Applied Energistics 2 | WirelessPatternTerminal | Wireless terminals for AE2 and RS |
+| Applied Energistics 2 | **AE2 Stuff** | Adds some critical blocks to AE2 |
+| Applied Energistics 2 | **Extra Cells 2** | Adds some important blocks to AE2 |
+| Applied Energistics 2 | **WirelessCraftingTerminal** | Wireless terminals for AE2 and RS |
+| Applied Energistics 2 | **WirelessFluidTerminal** | Wireless terminals for AE2 and RS |
+| Applied Energistics 2 | **WirelessInterfaceTerminal** | Wireless terminals for AE2 and RS |
+| Applied Energistics 2 | **WirelessPatternTerminal** | Wireless terminals for AE2 and RS |
 | Ender IO | EnderIO Endergy | High-end conduits and gear for EnderIO |
 | Environmental Tech | ET Lunar | Adds lunar arrays for night-time powergen to ET |
 | Forestry | Binnie's Mods | Extensions to Forestry for more bees/trees etc |
 | Forestry | Career Bees | Forestry addon that extends bee types |
-| Forestry | Gendustry | Addon for Forestry for industrializing parts of it |
+| Forestry | **Gendustry** | Addon for Forestry for industrializing parts of it |
 | Forestry | Magic Bees | Magical bee species expansion for Forestry |
 | Immersive Engineering | Immersive Petroleum | Adds oil wells, pumpjacks and other petroleum things to IE |
 | Immersive Engineering | Immersive Tech | Adds steam turbines, solar towers and such to IE |
 | Mekanism | Generators | Power generators for Mekanism |
-| Mekanism | Tools | Tools for Mekanism |
-| Mystical Agriculture | Mystical Agradditions | Extensions for Mystical Agriculture |
-| OpenComputers | Computronics | Adds peripherals to ComputerCraft and OpenComputers |
+| Mekanism | **Tools** | Tools for Mekanism |
+| Mystical Agriculture | **Mystical Agradditions** | Extensions for Mystical Agriculture |
+| OpenComputers | **Computronics** | Adds peripherals to ComputerCraft and OpenComputers |
 | ProjectRed | Compat | Compatibility for Project Red to other mods |
 | ProjectRed | Fabrication | Construction machines for ProjectRed |
 | ProjectRed | Integration | Shrink down redstone logic to tiles |
 | ProjectRed | Lighting | Lights and such for ProjectRed |
 | ProjectRed | Mechanical | Expansion and transport for ProjectRed |
 | ProjectRed | World | Ores and worldgen for ProjectRed |
-| RFTools | Control | Automation for RFtools |
-| RFTools | Dimensions | Dimension Generators for RFTools |
-| RFTools | Power | Power generators for RFTools |
+| RFTools | **Control** | Automation for RFtools |
+| RFTools | **Dimensions** | Dimension Generators for RFTools |
+| RFTools | **Power** | Power generators for RFTools |
 | Thermal Expansion | Cultivation | Watering cans |
-| Thermal Expansion | Dynamics | Itemducts, fluiducts, viaducts etc |
-| Thermal Expansion | Foundation | Basic materials and tools for Thermal Expansion
-| Thermal Expansion | Logistics | Logistics pipes, automation for machinery |
-| Tinker's Construct | Armory Expansion | Adds tools and armor parts for other materials |
-| Tinker's Construct | Construct's Armory | Armor pieces for Tinker's Construct |
+| Thermal Expansion | **Dynamics** | Itemducts, fluiducts, viaducts etc |
+| Thermal Expansion | **Foundation** | Basic materials and tools for Thermal Expansion
+| Thermal Expansion | **Logistics** | Logistics pipes, automation for machinery |
+| Tinker's Construct | **Armory Expansion** | Adds tools and armor parts for other materials |
+| Tinker's Construct | **Construct's Armory** | Armor pieces for Tinker's Construct |
 
 ## Integrations for Major Mods
 
