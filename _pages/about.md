@@ -13,5 +13,5 @@ permalink: /about/
 
 # Gaming Documentation
 
-* [ATM3R Docs](/docs/atm3r)
+* [Modded Minecraft](/docs/minecraft)
 

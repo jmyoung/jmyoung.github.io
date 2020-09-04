@@ -17,10 +17,10 @@ avatar: /images/coffee_round_256.png
 
 # Collection setup
 collections:
-  # Notes for the Minecraft ATM3R Modpack
-  docs_atm3r:
+  # Notes for Modded Minecraft
+  docs_minecraft:
     output: true
-    permalink: /docs/atm3r/:path
+    permalink: /docs/minecraft/:path
   
 
 # Includes an icon in the footer for each username you enter
