@@ -8,7 +8,7 @@ permalink: /about/
 
 * [My GitHub Repos](https://github.com/jmyoung/zencoding-blog)
 * [My GPG Public Key](https://sks-keyservers.net/pks/lookup?op=get&search=0xd5373afab918116c)
-* [ZenCoffee CA Cert](https://s3.amazonaws.com/coding.zencoffee.org/ca.zencoffee.org.pem)
+* [ZenCoffee CA Cert](https://blog.zencoffee.org/ca.zencoffee.org.crt)
 * [Password Generator](/passwordgenerator)
 
 # Gaming Documentation
